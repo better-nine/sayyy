@@ -81,8 +81,11 @@ venv/
 
 .idea
 
+__pycache__/
+
 #secret key
 .env
 
 #db
 db.sqlite3
+
