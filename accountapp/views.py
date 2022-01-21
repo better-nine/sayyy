@@ -5,8 +5,7 @@ from django.shortcuts import render
 
 
 def hello_world(request):
-    return HttpResponse("hello world? ! ")
-
+    return render(request, 'accountapp/hello.html ')
 
 def extra():
     pass
